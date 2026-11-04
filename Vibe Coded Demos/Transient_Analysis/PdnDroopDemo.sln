@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdnDroopDemo.Core", "PdnDroopDemo.Core\PdnDroopDemo.Core.csproj", "{8C4E2A11-6B0D-4F5A-9C31-2D7A1E6B9042}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdnDroopDemo.App", "PdnDroopDemo.App\PdnDroopDemo.App.csproj", "{3F91C7D2-55AE-4B18-A6E0-7C2D84F1B0A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C4E2A11-6B0D-4F5A-9C31-2D7A1E6B9042}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8C4E2A11-6B0D-4F5A-9C31-2D7A1E6B9042}.Debug|x64.Build.0 = Debug|Any CPU
+		{8C4E2A11-6B0D-4F5A-9C31-2D7A1E6B9042}.Release|x64.ActiveCfg = Release|Any CPU
+		{8C4E2A11-6B0D-4F5A-9C31-2D7A1E6B9042}.Release|x64.Build.0 = Release|Any CPU
+		{3F91C7D2-55AE-4B18-A6E0-7C2D84F1B0A5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3F91C7D2-55AE-4B18-A6E0-7C2D84F1B0A5}.Debug|x64.Build.0 = Debug|Any CPU
+		{3F91C7D2-55AE-4B18-A6E0-7C2D84F1B0A5}.Release|x64.ActiveCfg = Release|Any CPU
+		{3F91C7D2-55AE-4B18-A6E0-7C2D84F1B0A5}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

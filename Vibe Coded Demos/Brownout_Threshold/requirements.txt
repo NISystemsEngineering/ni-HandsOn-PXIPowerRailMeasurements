@@ -1,0 +1,17 @@
+# NI Python driver packages
+nidcpower>=1.4.0
+niscope>=1.4.0
+nifgen>=1.4.0
+
+# Used only to route the controller's SMB trigger input onto a PXI backplane
+# trigger line, replacing the standalone LabVIEW DAQmx Connect Terminals VI.
+nidaqmx>=1.0.0
+
+# VISA for DUT serial communication
+pyvisa>=1.13.0
+
+# Data handling and plotting. The live GUI needs nothing beyond these -- it embeds a
+# matplotlib canvas in tkinter, which ships with Python on Windows, and the Wilson
+# intervals and logistic fit are written against numpy rather than pulling in scipy.
+numpy>=1.21.0
+matplotlib>=3.5.0
